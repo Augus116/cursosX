@@ -9,32 +9,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Celulares</title>
+    <title>CursosX</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <img src="assets/img/logo.png" alt="">
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li>Carros</li>
-                <li>Fale Conosco</li>
+            <div class="logo">
+                <img src="assets/img/computer-circle-icon-with-drop-shadow-by-Vexels.png" alt="Logo">
+            </div>
+            <ul class="navbar">
+                <li class="navbar-item"><a href="#Home">Home</a></li>
+                <li class="navbar-item"><a href="#about">Sobre nós</a></li>
+                <li class="navbar-item"><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
+    
+    
     <!-- https://www.alainclass.com/cars/ -->
-    <section class="container">
+    <section class="container" id="Home">
         <div class="list">
             <div class="item active itemAnime">
                 <div class="car-img">
-                    <img src="assets/img/redmi 13.webp" alt="carro 1">
+                    <img src="assets/img/javascript.png" alt="carro 1">
                 </div>
                 <div class="content">
-                    <p class="car-information">Único Dono</p>
-                    <h2>Redmi 13</h2>
-                    <p class="description">O Redmi 13 é um celular mais básico, focado em oferecer um bom custo-benefício.  Possui um processador intermediário, suficiente para as tarefas do dia a dia.  Uma das principais características desse modelo é a bateria de longa duração.</p>
-                    <button class=" button1">Saiba Mais</button>
+                    <p class="car-information">JavaScript</p>
+                    <h2>6 meses</h2>
+                    <p class="description">JavaScript é uma das linguagens mais populares para desenvolvimento web, permitindo criar sites interativos e dinâmicos. Usada no front-end (navegadores) e no back-end (com Node.js).</p>
+                    <a href="javascript.html">
+                        <button class=" button1">Saiba Mais</button>
+                    </a>
+                    
                     <!-- information no btn sem -->
                 </div>
             </div>
@@ -42,14 +49,16 @@
             <!-- outros 2 itens so depois do css pra nao ficar ruim os testes... -->
             <div class="item">
                 <div class="car-img">
-                    <img src="assets/img/mi 11.webp" alt="carro 1">
+                    <img src="assets/img/pythoned.png" alt="carro 1">
                     <!-- <div class="carModelContainer" style="width: 100%; height: 100%;"></div> -->
                 </div>
                 <div class="content">
-                    <p class="car-information">Único dono</p>
-                    <h2>Mi 11</h2>
-                    <p class="description">O Mi 11 era considerado um dos melhores smartphones Android quando foi lançado. Equipado com um processador Snapdragon 888, garantia de alta performance para jogos e aplicativos pesados. Uma tela vibrante e com alta taxa de atualização, ideal para consumir conteúdos multimídia.</p>
-                    <button class=" button1">Saiba Mais</button>
+                    <p class="car-information">Python</p>
+                    <h2>4 meses</h2>
+                    <p class="description">Python é uma linguagem de programação de alto nível, muito usada em análise de dados, inteligência artificial, automação e desenvolvimento web. Sua sintaxe simples e legibilidade tornam-na ideal para iniciantes.</p>
+                    <a href="python.html">
+                        <button class=" button1">Saiba Mais</button>
+                    </a>
                 </div>
             </div>
 
@@ -67,14 +76,16 @@
 
             <div class="item">
                 <div class="car-img">
-                    <img src="assets/img/redmi 14.webp" alt="carro 1">
+                    <img src="assets/img/csharp.png" alt="carro 1">
                     <!-- <div class="carModelContainer" style="width: 100%; height: 100%;"></div> -->
                 </div>
                 <div class="content">
-                    <p class="car-information">Único Dono</p>
-                    <h2>Redmi 14</h2>
-                    <p class="description">O Redmi 14 é uma evolução do modelo anterior, com algumas melhorias em relação ao desempenho e à câmera. Em linhas gerais, o Redmi 14 mantém as características do Redmi 13, como a bateria de longa duração e o bom custo-benefício.</p>
-                    <button class=" button1">Saiba Mais</button>
+                    <p class="car-information">C#</p>
+                    <h2>6 meses</h2>
+                    <p class="description">C# (C-sharp) é uma linguagem de programação desenvolvida pela Microsoft, muito utilizada para criar jogos, aplicativos de desktop, sistemas web e até aplicativos móveis. Sua sintaxe é parecida com a do Java e C++, e é bastante usada para desenvolvimento de jogos no Unity.</p>
+                    <a href="csharp.html">
+                        <button class=" button1">Saiba Mais</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -93,7 +104,129 @@
         </div>
     </section>
     
+    <section class="about" id="about">
+        <div class="about-content">
+            <h1>Aprenda Programação e Conquiste o Mercado de TI com a CursosX</h1>
+            <p>A CursosX é uma instituição especializada em oferecer cursos de linguagens de programação, comprometida em capacitar profissionais para os desafios do mundo digital. Com a constante evolução da tecnologia, dominar linguagens de programação tornou-se um diferencial competitivo crucial para aqueles que desejam se destacar no mercado de trabalho. Pensando nisso, a CursosX oferece uma abordagem inovadora, acessível e personalizada para quem deseja aprender a programar e conquistar o mundo da tecnologia.</p>
+        </div>
+        <div class="about-content">
+            <h1>Metodologia de Ensino</h1>
+            <p>A CursosX se destaca pela qualidade e flexibilidade de seus cursos. Com uma metodologia baseada em ensino prático e teórico, o aluno não apenas aprende os conceitos fundamentais de cada linguagem, mas também tem a oportunidade de aplicá-los em projetos reais, simulando o ambiente de trabalho. Os cursos são adaptados para todos os níveis, desde iniciantes que nunca programaram até desenvolvedores experientes que buscam aprimorar seus conhecimentos. Além disso, a empresa utiliza as mais modernas ferramentas e recursos tecnológicos, como plataformas de aprendizagem online, vídeos tutoriais, fóruns de discussão e sessões de mentoring com profissionais da área, criando um ambiente de aprendizado dinâmico e interativo.</p>
+        </div>
+        <div class="about-content">
+            <h1>Cursos Oferecidos</h1>
+            <h2>JavaScript</h2>
+            <p>O curso ideal para quem quer entrar no mundo do desenvolvimento web, aprendendo desde os fundamentos até as técnicas avançadas de JavaScript.</p>
+            <h2>Python</h2>
+            <p>Um dos cursos mais procurados, Python é uma linguagem versátil, usada em desenvolvimento web, automação, inteligência artificial, ciência de dados e muito mais.</p>
+            <h2>C#</h2>
+            <p>Um curso completo para quem deseja trabalhar com a plataforma .NET e desenvolver aplicações desktop, web e móveis com C#.</p>
+            <h2>Java</h2>
+            <p>Um dos pilares da programação moderna, nosso curso de Java prepara você para criar aplicações robustas e escaláveis.</p>
+            <h2>Ruby</h2>
+            <p>Focado na construção de aplicativos web, especialmente com o popular framework Ruby on Rails, nosso curso de Ruby é ideal para quem deseja trabalhar em startups ou projetos ágeis.</p>
+        </div>
+    </section>
+    <section class="img-gallery">
+        <div class="headling">
+            <h1>Galeria de imagem</h1>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="assets/img/computer1.jpg" alt="" onclick="openModal('assets/img/computer1.jpg')">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/computer2.jpg" alt="" onclick="openModal('assets/img/computer2.jpg')">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/computer3.jpg" alt="" onclick="openModal('assets/img/computer3.jpg')">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/computer4.jpg" alt="" onclick="openModal('assets/img/computer4.jpg')">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/computer5.jpg" alt="" onclick="openModal('assets/img/computer5.jpg')">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/computer6.jpg" alt="" onclick="openModal('assets/img/computer6.jpg')">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/computer7.jpg" alt="" onclick="openModal('assets/img/computer7.jpg')">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/computer8.jpg" alt="" onclick="openModal('assets/img/computer8.jpg')">
+                </div>
+            </div>    
+            
+            <!-- Imagem de destaque abaixo da galeria -->
+            <div class="highlight-image">
+                <img src="assets/img/escritorio.jpg" alt="Imagem de destaque">
+            </div>
+        </div>
+    
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-form-container">
+            <form id="form" action="seu-script-de-envio" method="POST">
+                <h1>Por favor, nos contate.</h1>
+                
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+    
+                <div class="form-actions">
+                    <button type="submit" id="send">Enviar</button>
+                    <button type="reset" id="reset">Resetar</button>
+                </div>
+            </form>
+        </div>
+        <div id="successMessage" class="success-message">
+            <h2>Mensagem enviada com sucesso!</h2>
+            <p>Recebemos sua mensagem! Obrigado por entrar em contato conosco.</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Augusto Alejandro Ledesma Cardozo Nº: 3, 2º sistemas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("0W-7ayL78bJglZxYZ");
+            })();
+        </script>
+        <script>
+            document.getElementById('form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                emailjs.sendForm('service_cn6weou', 'template_2ber9s3', this)
+                    .then(function () {
+                        alert('Email enviado com sucesso!');
+                    }, function (error) {
+                        alert('Erro ao enviar o email: ' + JSON.stringify(error));
+                    });
+            });
+        </script>
+    
+    <script src="assets/js/modal.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/email.js"></script>
 </body>
 
 </html>

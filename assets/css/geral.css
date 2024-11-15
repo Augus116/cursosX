@@ -1,0 +1,105 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo da página */
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Barra de navegação */
+header nav {
+    background-color: #1E1E1E;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Títulos principais */
+h1, h2, h3 {
+    color: #FFFFFF;
+}
+
+/* Seções de conteúdo */
+section {
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Conteúdo dos cursos */
+.course-content {
+    margin-bottom: 30px;
+}
+
+.course-content ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.course-content ul li {
+    margin-bottom: 10px;
+}
+
+.course-content ul li:before {
+    content: "•";
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+/* Botão para redirecionar ao formulário */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #1E1E1E;
+    color: #BBBBBB;
+}
+
+footer p {
+    font-size: 14px;
+}

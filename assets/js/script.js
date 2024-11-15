@@ -64,7 +64,7 @@ function setSlider() {
     let cor1 = '#00FF00'; // Verde
     let cor2 = '#FFD700'; // Dourado
     let cor3 = '#FFFFFF'; // Branco
-
+    
     // Seleciona o item ativo e seus elementos
     let activeItem = items[active];
     let activeDescription = activeItem.querySelector('.description');
@@ -80,19 +80,19 @@ function setSlider() {
     });
 
     if (active === 0) {
-        container.style.backgroundImage = 'radial-gradient(circle, #cccccc, #000000)';
-        activeDescription.style.color = cor1;
-        activeCarInfo.style.color = cor1;
-        activeH2.style.color = cor1;
+        container.style.backgroundImage = 'radial-gradient(circle, #f1c40f, #e67e22)';
+        activeDescription.style.color = cor3;
+        activeCarInfo.style.color = cor3;
+        activeH2.style.color = cor3;
         activeLi.style.backgroundColor = cor1; // Muda a cor de fundo do li ativo
     } else if (active === 1) {
-        container.style.backgroundImage = 'radial-gradient(circle, #ff6347, #8b0000)';
-        activeDescription.style.color = cor2;
-        activeCarInfo.style.color = cor2;
-        activeH2.style.color = cor2;
+        container.style.backgroundImage = 'radial-gradient(circle, #3498db, #f39c12 )';
+        activeDescription.style.color = cor3;
+        activeCarInfo.style.color = cor3;
+        activeH2.style.color = cor3;
         activeLi.style.backgroundColor = cor2; // Muda a cor de fundo do li ativo
     } else if (active === 2) {
-        container.style.backgroundImage = 'radial-gradient(circle, #ff0000, #ffff00)';
+        container.style.backgroundImage = 'radial-gradient(circle, #8e44ad, #2c3e50)';
         activeDescription.style.color = cor3;
         activeCarInfo.style.color = cor3;
         activeH2.style.color = cor3;
