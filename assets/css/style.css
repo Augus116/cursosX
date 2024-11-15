@@ -17,7 +17,7 @@ header nav {
     padding: 10px 20px;             /* Adiciona algum espaçamento ao redor */
     background-color: #333;         /* Cor de fundo escura */
     height: 60px;                   /* Altura da barra de navegação */
-    z-index: 5;                  /* Garante que a navbar fique sobre outros conteúdos */
+    z-index: 5;                     /* Garante que a navbar fique sobre outros conteúdos */
 }
 
 /* Logo */
@@ -48,17 +48,43 @@ header .logo img {
     color: #007BFF;                 /* Cor de destaque ao passar o mouse */
 }
 
-/* Estilo para o conteúdo principal para evitar sobreposição */
-body {
-    margin-top: 60px;                /* Dá espaço para a navbar fixa */
+/* Estilo do menu de hambúrguer */
+.hamburger {
+    display: none;                  /* Inicialmente, o ícone de hambúrguer está escondido */
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
 }
 
-/* Opcional: Deixar os links mais espaçados em telas maiores */
-@media (min-width: 1024px) {
-    .navbar-item a {
-        font-size: 18px;             /* Aumenta o tamanho da fonte em telas maiores */
+/* Estilo das barras do hambúrguer */
+.hamburger div {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Esconde os itens de navegação em telas pequenas */
+    .navbar {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #333;  /* Manter a cor de fundo */
+    }
+
+    .navbar.show {
+        display: flex;  /* Mostra os itens quando o menu de hambúrguer é clicado */
+    }
+
+    /* Exibe o ícone de hambúrguer em telas pequenas */
+    .hamburger {
+        display: flex;
     }
 }
+
 
 /* Estilo das Seções */
 section {
